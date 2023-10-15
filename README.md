@@ -1,10 +1,15 @@
-- 👋 Hi, I’m @Angelslaw
-- 👀 I’m interested in web development 
-- 🌱 I’m currently learning coding
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+tojavascript-
+dateconst. http =
+ require
+('1http0');. Mon
+itor
+ yourconst server website =' https. performancecreate:Server To(( ensurereq that, your website res) => {
+ res.statusCode = 200;
+ res.setHeader('Content-Type', 'text/plain');
+ res.end('Hello World');
+});
 
-<!---
-Angelslaw/Angelslaw is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+server.listen(3000, () => {
+ console.log('Server running at http://localhost:3000/');
+});
+
